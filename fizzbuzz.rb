@@ -6,7 +6,8 @@ for i in 1..100 do
 	elsif i % 3 == 0 then
 		print("fizz\n");
 	elsif i % 5 == 0 then
-		print("buzz"\n");
+		print("buzz\n");
 	else
 		print("#{i}\n"); 
+	end
 end
